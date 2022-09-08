@@ -12,6 +12,7 @@
 
 ## Rodar (cria) container
 `docker run -d -p 3000:3000 --name node-docker2(nome container) node-docker-image (nome imagem ou ID)`
+
 `docker run -d -p 80:80 --name nginx-docker nginx`
 
 ## Roda e já abre o container no TERMINAL - se for node, já roda node
