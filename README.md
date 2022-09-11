@@ -46,3 +46,18 @@
 
 ## Entrar em um container no terminal (modo interativo)
 `docker attach (nome ou ID)`
+
+## Iniciar um container com um comando e deixar rodando por um tempo
+docker run -d centos /bin/bash -c "ping 8.8.8.8 -c 50"
+
+## Ver o que está sendo executado em um container TOP
+docker top 441ea9b4c96a (ID)
+
+## Maneiras diferentes de acessar um container
+`nsenter -m -u -n -p -i -t 3480 (número do PID que descobre com inspect) /bin/bash`
+
+## Descobrir PID
+`docker inspect ID | grep Pid` > o primeiro número será o Pid
+
+## OUTRA opção para acessar o container 
+`docker exec -it ID /bin/bash`
