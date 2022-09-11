@@ -35,3 +35,14 @@
 
 ## Limpar container - economizar espaço
 `docker system prune`
+
+# Extras
+
+## Baixar imagem a parte
+`docker pull fedora (nome da imagem)`
+
+## Atalho sair do CONTAINER sem fecha-lo
+`CTRL + P + Q`
+
+## Entrar em um container no terminal (modo interativo)
+`docker attach (nome ou ID)`
