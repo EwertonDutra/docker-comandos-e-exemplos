@@ -51,3 +51,8 @@ Maneiras de saber os logs dos containers
 `docker exec -it CONTAINER_ID bash`   abrir o terminal do container
 
 Pode criar um volume para persistir os LOGS também! 
+
+### Limpar ambiente Docker
+<img width="340" alt="reset ambiente docker" src="https://user-images.githubusercontent.com/13201575/189534913-b40a17b3-67c0-42e8-a9f5-4d9fd5101168.png">
+
+
