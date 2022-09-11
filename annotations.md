@@ -40,3 +40,6 @@ Para criar volume para o container, pelo que vi até o momento seria mais útil 
 ### Warning 
 Camadas no docker tem um limite, parece 127, po isso é bom evitar ao máximo ter muitas camadas além de outros problemas
 
+### LINK
+A linkagem serve para ligar 2 containers (ou mais na verdade), assim em vez de expor portas você pode está fazendo uma rede entre eles, e não vai expor (portas para o mundo) nada na verdade
+
