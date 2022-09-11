@@ -43,3 +43,11 @@ Camadas no docker tem um limite, parece 127, po isso é bom evitar ao máximo te
 ### LINK
 A linkagem serve para ligar 2 containers (ou mais na verdade), assim em vez de expor portas você pode está fazendo uma rede entre eles, e não vai expor (portas para o mundo) nada na verdade
 
+### LOGS
+Maneiras de saber os logs dos containers
+
+`docker logs CONTAINER_ID`    ver o log do container da máquina host 
+
+`docker exec -it CONTAINER_ID bash`   abrir o terminal do container
+
+Pode criar um volume para persistir os LOGS também! 
